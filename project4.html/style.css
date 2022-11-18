@@ -1,0 +1,40 @@
+body{
+
+margin: 0;
+background: #000;
+}
+button{
+width: 20vw;
+height: 6vw;
+position: absolute;
+left: 50vw;
+top: 50vh;
+transform: translate(-50%, -80%);
+font-family: 'varela round' sans-serif ;
+font-size: 2vw;
+letter-spacing: 0.lem;
+color: #2dee0b;
+border: none;
+border-radius: 10px;
+outline: none;
+background: linear-grandient ( 45deg, #14de0e, teal #5b0ade) ;
+background-size: 400% 400%;
+box-shadow: 1vw 1vw 0 rgb(190, 241, 5);
+cursor: pointer;
+transition: all 0.2vw 0 rgb(238, 8, 8);
+}
+
+button:hover {
+animation: gradient 10s ease infintes ;
+font-size: 2.05vw;
+box-shadow: 0.2vw 0.2vw 0 rgb(3, 31, 239);
+}
+
+@keyframes gradient {
+50%
+{
+    background-position: 100% 0;
+}
+
+}
+
